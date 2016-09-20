@@ -49,7 +49,7 @@ options:
         choices: ['enabled','disabled']
 '''
 
-EXAMPLES :  '''
+EXAMPLES =  '''
 # ensure lldp trap configured
 - nxos_snmp_traps:
     group: lldp
